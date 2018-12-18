@@ -16,7 +16,7 @@ describe('jest-html-differ', () => {
   }); // this will fail!
 
   it('should compare a snippet of html with a snapshot', () => {
-    expect('<div></div>').sameHtmlAsSnapshot(/* you can include any arguments you'd include in Jest's `toMatchSnapshot(...)` function*/)
+    expect('<div></div>').sameHtmlAsSnapshot(/*takes the same arguments as Jest's `toMatchSnapshot(...)`*/);
   });
 
 });
