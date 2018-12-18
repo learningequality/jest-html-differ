@@ -1,23 +1,13 @@
 {
   "name": "jest-html-differ",
   "version": "0.0.1",
-  "main": "dist/jest-html-differ.cjs.js",
-  "module": "dist/jest-html-differ.mjs",
+  "module": "dist/main.js",
   "dependencies": {
     "html-differ": "^1.3.4",
     "jest-snapshot": "^23.6.0"
   },
   "devDependencies": {
-    "rollup": "^0.67.4",
-    "rollup-plugin-commonjs": "^9.2.0",
-    "rollup-plugin-json": "^3.1.0",
-    "rollup-plugin-node-resolve": "^4.0.0"
-  },
-  "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "test": "node test/test.js",
-    "pretest": "npm run build"
+
   },
   "files": [
     "dist"
